@@ -1,0 +1,37 @@
+operator= input ("Select your operator: + | - | * | / " )
+
+if operator == '+' :
+    number_1 = int(input("Type a number "))
+    number_2 = int(input("Type another number "))
+    number_3 = int (input("Type the last number "))
+    answer = number_1 + number_2 + number_3
+    print ("Answer:", number_1, "+", number_2, "+", number_3, "=", answer)
+
+
+elif operator == '-' :
+    number_1 = int(input("Type a number "))
+    number_2 = int(input("Type another number "))
+    number_3 = int (input("Type the last number "))
+    answer = number_1 - number_2 - number_3
+    print ("Answer:", number_1, "-", number_2, "-", number_3, "=", answer)
+
+elif operator == '*' :
+    number_1 = int(input("Type a number "))
+    number_2 = int(input("Type another number "))
+    number_3 = int (input("Type the last number "))
+    answer = number_1 * number_2 * number_3
+    print ("Answer:", number_1, "*", number_2, "*", number_3, "=", answer)
+    
+elif operator == '/' :
+   number_1 = int(input("Type a number "))
+   number_2 = int(input("Type another number "))
+   number_3 = int (input("Type the last number "))
+   answer = number_1 / number_2 / number_3
+   print ("Answer:", number_1, "/", number_2, "/", number_3, "=", answer)
+
+
+else:
+    print ("check your operation sign again")
+        
+                
+    
